@@ -1,7 +1,7 @@
 import Posts from "./components/Posts"
 import MyProfilePic from './components/MyProfilePic'
 
-export const revalidate = 10     //when you deploy the app, set this to 86400 (1 day in s)
+export const revalidate = 86400     //when you deploy the app, set this to 86400 (1 day in s)
 
 export default function Home() {
     return (
